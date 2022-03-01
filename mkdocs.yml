@@ -1,5 +1,5 @@
 # Project information
-site_name: Workshop Setup
+site_name: IBM TECHallenge
 site_url: https://remkohdev.github.io/workshop-setup
 site_author: IBM Developer
 
@@ -10,12 +10,17 @@ edit_uri: edit/master/docs
 
 # Navigation
 nav:
-  - Welcome:
-    - About the workshop: README.md
-  - Workshop:
-    - Lab 0. Pre-work: pre-work/README.md
-    - Lab 1. Some Title: lab-1/README.md
-  - References:
+  - Bienvenido:
+    - Sobre el reto: README.md
+  - Material de consulta:
+    - Entorno de trabajo: entorno/README.md
+    - Arquitectura: arquitectura/README.md
+    - IBM Cloud: ibmcloud/README.md
+    - Tecnología de contenedores: contenedores/README.md
+    - IBM Watson AI: watsonai/README.md
+    - Ejemplo de implementación: ejemplo/README.md
+    - Tips para MVPs: tipsmvp/README.md
+  - Recursos adicionales:
     - Additional Resources: resources/RESOURCES.md
     - Contributors: resources/CONTRIBUTORS.md
     - MkDocs Cheatsheet: resources/MKDOCS.md
