@@ -1,38 +1,55 @@
-# Introducción
+# Bienvenido al IBM TECHallenge
 
-## Workshop Title
+## El reto
 
-Welcome to our workshop! In this workshop we'll be using foo to accomplish bar. The goals of this workshop are:
+Bienvenido a IBM TECHallenge! 
+Este reto bla bla bla 
+Los objetivos son: 
 
-* Goals!
-* Have fun!
+* Objetivo
+* Objetivo...
 
-### About this workshop
+Aquí te contaremos los siguientes aspectos que tendrás que conocer para competir en el reto (objetivo, recursos, criterios, tiempos, entrega):
 
-The introductory page of the workshop is broken down into the following sections:
+* [Objetivo](./#agenda)
+* [Recursos](./#compatibility)
+* [Criterios de Evaluación](./#technology-used)
+* [Tiempo de entrega](./#credits)
+* [Entrega soluciones](./#credits)
 
-* [Agenda](./#agenda)
-* [Compatibility](./#compatibility)
-* [Technology Used](./#technology-used)
-* [Credits](./#credits)
+## Objetivo
 
-## Agenda
+El objetivo de este reto es desarrollar una solución para (objetivo del reto) mediante la implementación de un asistente virtual. Este asistente lo podrás construir utilizando diversas tecnologías que IBM Cloud pone a tu disposición.
+
+## Recursos
+
+En la sección [Material de consulta](entorno/README.md) podrás encontrar una serie de recursos que ponemos a tu disposición para facilitarte la labor.
 
 |  |  |
 | :--- | :--- |
-| [Lab 0: Pre-work](pre-work/README.md) | Pre-work for the project |
-| [Lab 1: Some Title](lab-1/README.md) | Exercise to do the thing |
+| [Entorno](entorno/README.md) | Configura el acceso a la cuenta de IBM Cloud para realizar el reto |
+| [Arquitectura](arquitectura/README.md) | Arquitectura de referencia con los componentes principales de la solución  |
+| [IBM Cloud](ibmcloud/README.md) | Overview de IBM Cloud |
+| [Contenedores](contenedores/README.md) | Overview y tutoriales sobre Docker y Kubernetes |
+| [Watson AI](watsonai/README.md) | Descripción de servicios de AI que puedes utilizar |
+| [Ejemplo](ejemplo/README.md) | Ejemplo de implementación de una solución usando varios componentes propuestos |
+| [Tips para MVPs](tipsmvp/README.md) | Recomendaciones de nuestros expertos para ganar el reto |
 
-## Compatibility
+## Criterios de evaluación
 
-This workshop has been tested on the following platforms:
+El jurado tendrá en cuenta los siguientes criterios para evaluar las soluciones presentadas
 
-* **osName**: version X, version Y
+* **creatividad**: bla bla
+* **completitud**: bla bla
 
-## Technology Used
+## Reglas
 
-* Brief Description
+Las reglas para competir en el TECHallenge son pocas, pero muy claras: 
 
-## Credits
+* Configuración de equipos
+* Entrega de soluciones
+* Tecnologías utilizadas
 
-* [Full Name](https://github.com/githubid)
+## Canales de comunicación
+
+* [Discord](https://discord.com)

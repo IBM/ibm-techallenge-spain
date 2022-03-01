@@ -1,6 +1,6 @@
-# Pre-work
+# Configuración del entorno
 
-This section is broken up into the following steps:
+En esta sección os contamos como daros de alta en IBM Cloud para la realización del reto:
 
 1. [Sign up for IBM Cloud](#1-sign-up-for-ibm-cloud)
 1. [Download or clone the repo](#2-download-or-clone-the-repo)

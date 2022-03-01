@@ -1,25 +1,16 @@
-# Pre-work
+# Arquitectura de referencia
 
-This section is broken up into the following steps:
+Os mostramos a continuación la arquitectura de referencia de los componentes principales que podéis emplear en el reto.
 
-1. [Sign up for IBM Cloud](#1-sign-up-for-ibm-cloud)
-1. [Download or clone the repo](#2-download-or-clone-the-repo)
+![Arquitectura](../images/arquitectura.png)
 
-## 1. Sign up for IBM Cloud
+La arquitectura consta de una pieza central, que es el asistente virtual, basado en tecnología IBM Watson Assistant.
+Este asistente guiará al usuario final a través de un diálogo programado para determinar las intenciones, palabras clave, etc.
 
-Ensure you have an IBM Cloud ID
+En caso de que el asistente necesite acceder a información adicional para ofrecer una respuesta más compleja, o para hacer más rico el propio diálogo, puede acceder a diversos servicios en el backend. Ahi varias opciones posibles:
+* Funciones serverless que acceden a una base de datos a buscar o actualizar información
+* Integración con Watson Discovery para localización de información en base a determinados parámetros
 
-![Cloud Sign up](../images/ibm-cloud-sign-up.png)
+Para la capa de front end, también contamos con varias alternativas, que van desde una integración sencilla del asistente en una página web, o integración con diferentes sistemas de mensajería que por defecto soporta Watson Asssitant. 
 
-## 2. Download or clone the repo
-
-Various parts of this workshop will require the attendee to upload files or run scripts that we've stored in the repository. So let's get that done early on, you'll need [`git`](https://git-scm.com) on your laptop to clone the repository directly, or access to [GitHub.com](https://github.com/) to download the zip file.
-
-To Download, go to the [GitHub repo for this workshop](https://github.com/IBM/workshop-template) and download the archived version of the workshop and extract it on your laptop.
-
-Alternately, run the following command:
-
-```bash
-git clone https://github.com/IBM/workshop-template
-cd workshop-template
-```
+Otra opción es desarrollaros vuestro porpio cliente e integrar ahí la funcionalidad de WA invocando al API. Un ejemplo de esto es tambien la integración específica con Discord, que se ha desarrolldo ad-hoc para que podáis consultar cómo se acceder al API de Watson Assistant.
