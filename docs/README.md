@@ -6,7 +6,7 @@ Bienvenido a IBM TECHallenge!
 
 Te proponemos participar en un reto estratégico lanzado por tu empresa. Durante dos semanas, junto con tu equipo, desarrollarás una idea innovadora alrededor de tecnologías basadas en AI y Contenedores, contando con el soporte de especialistas de IBM y su plataforma de Cloud pública para que puedas usar los servicios que mejor encajen en tu solución.
 
-![Challenge image](../images/challenge-image.jpg)
+![Challenge image](./images/challenge-image.jpg)
 
 En esta guía encontrarás los recursos indispensables para que tener éxito en el reto. Te contamos los siguientes aspectos que tendrás que conocer para competir en el reto, como el objetivo, los recursos disponibles, los criterios de evaluacion, los tiempos de entrega, el portal de entrega de soluciones y los canales de comunicación:
 

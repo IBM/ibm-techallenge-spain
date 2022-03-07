@@ -1,17 +1,21 @@
-# Additional resources
+# Recursos Adicionales
 
 ## IBM Demos
 
-* [Collection: InfoSphere Information Server](https://www.ibm.com/demos/collection/IBM-InfoSphere-DataStage)
-* [Tutorial: Transforming your data with IBM DataStage](https://www.ibm.com/cloud/garage/dte/tutorial/transforming-your-data-ibm-datastage)
+* [Collection: IBM Watson](https://www.ibm.com/products?q=Watson%20Assistant&ibmbrand[0]=watson)
+
+## IBM Learn
+
+* [Artificial Intelligence (AI)](https://www.ibm.com/cloud/learn/what-is-artificial-intelligence)
 
 ## Redbooks
 
-* [IBM InfoSphere DataStage Data Flow and Job Design](http://www.redbooks.ibm.com/abstracts/sg247576.html)
-* [InfoSphere DataStage Parallel Framework Standard Practices](http://www.redbooks.ibm.com/abstracts/sg247830.html)
+* Redbook
 
 ## Videos
 
-* [Video: Postal codes and part numbers (DataStage)](https://www.youtube.com/watch?v=0M7Geb7Vp4U)
-* [Video: Find relationships between sales, employees, and customers (Information Analyzer)](https://www.youtube.com/watch?v=r121Opaangk)
-* [Video: Clean and analyze data (Governance Catalog)](https://www.youtube.com/watch?v=UGvaNxD0_4E)
+* Video
+
+## Discord
+
+* [Invitación al canal de Discord](https://discord.gg/Pf8SdV6w)

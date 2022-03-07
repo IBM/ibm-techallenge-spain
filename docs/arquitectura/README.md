@@ -2,7 +2,7 @@
 
 Os mostramos a continuación la arquitectura de referencia de los componentes principales que podéis emplear en el reto.
 
-![Arquitectura](../images/arquitectura.png)
+![Arquitectura](../images/arquitecturaref.png)
 
 La arquitectura consta de una pieza central, que es el asistente virtual, basado en tecnología IBM Watson Assistant.
 Este asistente guiará al usuario final a través de un diálogo programado para determinar las intenciones, palabras clave, etc.
