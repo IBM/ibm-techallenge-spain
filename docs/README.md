@@ -2,14 +2,13 @@
 
 ## El reto
 
-Bienvenido a IBM TECHallenge! Este reto consiste en bla bla bla... 
-Los objetivos del reto son: 
+Bienvenido a IBM TECHallenge! 
 
-* Objetivo 1.
-* Objetivo 2.
-* ...
+Te proponemos participar en un reto estratégico lanzado por tu empresa. Durante dos semanas, junto con tu equipo, desarrollarás una idea innovadora alrededor de tecnologías basadas en AI y Contenedores, contando con el soporte de especialistas de IBM y su plataforma de Cloud pública para que puedas usar los servicios que mejor encajen en tu solución.
 
-Aquí te contaremos los siguientes aspectos que tendrás que conocer para competir en el reto, como el objetivo, los recursos disponibles, los criterios de evaluacion, los tiempos de entrega, el portal de entrega de soluciones y los canales de comunicación:
+![Challenge image](../images/challenge-image.jpg)
+
+En esta guía encontrarás los recursos indispensables para que tener éxito en el reto. Te contamos los siguientes aspectos que tendrás que conocer para competir en el reto, como el objetivo, los recursos disponibles, los criterios de evaluacion, los tiempos de entrega, el portal de entrega de soluciones y los canales de comunicación:
 
 * [Objetivo](./#objetivo).
 * [Recursos](./#recursos).
@@ -18,13 +17,21 @@ Aquí te contaremos los siguientes aspectos que tendrás que conocer para compet
 * [Entrega de soluciones](./#entrega-de-soluciones).
 * [Canales de comunicación](./#canales-de-comunicación).
 
+Adelante! 
+
 ## Objetivo
 
-El objetivo de este reto es desarrollar una solución para (objetivo del reto) mediante la implementación de un asistente virtual. Este asistente lo podrás construir utilizando diversas tecnologías que IBM Cloud pone a tu disposición.
+El objetivo de este reto es desarrollar una solución para (objetivo del reto) mediante la implementación de un asistente virtual y el uso de la tecnología de contenedores. Este asistente lo podrás construir utilizando diversos recursos que IBM Cloud pone a tu disposición.
+
+Los objetivos del reto son: 
+
+* Objetivo 1.
+* Objetivo 2.
+* ...
 
 ## Recursos
 
-En la sección [Material de consulta](entorno/README.md) podrás encontrar una serie de recursos que ponemos a tu disposición para facilitarte la labor.
+En la sección [Material de consulta](entorno/README.md) podrás encontrar una serie de recursos que ponemos a tu disposición para familiarizarte con la tecnología que podrás utilizar y ponerte más fácil la consecución de reto.
 
 |  |  |
 | :--- | :--- |
@@ -48,7 +55,7 @@ El jurado tendrá en cuenta los siguientes criterios para evaluar las soluciones
 
 ## Reglas
 
-Las reglas para competir en el TECHallenge son pocas, pero muy claras: 
+Las reglas para competir en el IBM TECHallenge son pocas, pero muy claras: 
 
 * Configuración de equipos: el tamaño de equipo permitido es de 3-4 miembros.
 * Entrega de soluciones: los equipos deben enviar sus soluciones antes de (fecha de entrega).
@@ -60,4 +67,4 @@ La entrega de la solución al reto se realizará por un único miembro del equip
 
 ## Canales de comunicación
 
-* [Discord](https://discord.com)
+Utilizaremos [Discord](https://discord.com) para mantenernos comunicados durante el reto. A través de esta plataforma, podrás conformar tu equipo, preguntar tus dudas a los expertos de IBM, realizar la entrega de tu solución, etc.

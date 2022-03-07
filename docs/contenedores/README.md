@@ -16,5 +16,6 @@ Para solucionar este reto, surgió la [orquestración de contenedores](https://w
 
 A continuación ponemos a tu disposición una serie de recursos para aprender más sobre contenedores y la orquestración de estos mediante plataformas como Kubernetes y tecnología de IBM Cloud:
 
-* [Presentaciones, tutoriales y recursos para aprender](https://ibm.box.com/v/docker-kubernetes)
-* [Video de la sesión de enablement]()
+* [Lab de Kubernetes](https://digidevcon.gitbook.io/kubernetes-coderdojo/exercise-0b)
+* [Presentacion Visita guíada por Kubernetes](https://ibm.ent.box.com/file/922560584732)
+* [Video de la sesión de enablement](https://www.crowdcast.io/e/-visita-guada-por)
