@@ -2,6 +2,7 @@
 
 En esta sección podéis acceder a material de consulta sobre tecnología de contenedores y cómo IBM Cloud os permite acceder a ella. 
 
+![Componentes de K8s](../images/kubernetes.png)
 ## ¿Qué son los contenedores?
 
 Los contenedores son unidades ejecutables de software donde se empaqueta el código de aplicación, junto con sus blibliotecas y dependencias, de forma común para que se pueda ejecutar en cualquier lugar, ya sea en el escritorio, en la TI tradicional o en el cloud.
