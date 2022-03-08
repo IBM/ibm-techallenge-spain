@@ -76,6 +76,6 @@ TODO: ## Servicios para el desarrollador
 
 A continuación ponemos a tu disposición una serie de recursos para aprender más sobre los servicios de IBM Cloud:
 
-* [Presentaciones, tutoriales, recursos para aprender](https://ibm.box.com/s/nagrn4mwkj0jzsxhcti0y8x7cs2xx0i2)
-* Video de la sesión de enablement
+* [Presentaciones, tutoriales, recursos para aprender](https://ibm.box.com/s/nagrn4mwkj0jzsxhcti0y8x7cs2xx0i2).
+* Video de la sesión de enablement.
 

@@ -7,16 +7,16 @@ En esta sección podéis acceder a material de consulta sobre recomendaciones y 
 
 ## ¿Qué es la metodología Garage?
 
-IBM integrates practices that are grounded in experience—from implementation at global scale through culture change—into a single, seamless end-to-end approach: the IBM Garage Methodology. The Methodology drives Enterprise Design Thinking at scale, is built on agile principles for colocated and distributed teams, leverages DevOps tools and techniques for continued delivery and operations, fosters digital talent and culture change, and enables Site Reliability Engineering.
+IBM integra prácticas que se basan en la experiencia, desde la implementación a escala global hasta el cambio cultural, en un enfoque único en integral: la Metodología IBM Garage. La Metodología impulsa el Design Thinking Empresarial a escala, se basa en principios ágiles para equipos ubicados y distribuidos, aprovecha las herramientas y técnicas de DevOps para la entrega y las operaciones continuas, fomenta el talento digital y el cambio cultural, y habilita Site Reliability Engineering.
 
 ![Garage method image](../images/challenge-image.jpg)
 
-The Methodology describes how to start implementing the practices in your organization. Workflows describe a set of activities that you need to complete to realize an outcome. For example, a workflow that describes how to define a minimum viable product (MVP) describes activities and related practices to create an implementable MVP.
+La Metodología describe cómo comenzar a implementar las prácticas en tu organización. Los flujos de trabajo describen un conjunto de actividades que debes completar para obtener un resultado. Por ejemplo, un flujo de trabajo que describe cómo definir un producto viable mínimo (MVP) describe actividades y prácticas relacionadas para crear un MVP implementable.
 
 
 ## Recursos
 
-A continuación ponemos a tu disposición una serie de recursos para aprender más sobre la metodología Garage y las recomendaciones más interesantes para organizarte el trabajo en tu MVP 
+A continuación ponemos a tu disposición una serie de recursos para aprender más sobre la metodología Garage y las recomendaciones más interesantes para organizarte el trabajo en tu MVP:
 
 * Presentaciones, tutoriales, recursos para aprender.
 * Video de la sesión de enablement.
