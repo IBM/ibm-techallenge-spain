@@ -1,25 +1,16 @@
 # Configuración del entorno
 
-En esta sección os contamos como daros de alta en IBM Cloud para la realización del reto:
-
-1. [Sign up for IBM Cloud](#1-sign-up-for-ibm-cloud)
-1. [Download or clone the repo](#2-download-or-clone-the-repo)
-
-## 1. Sign up for IBM Cloud
-
-Ensure you have an IBM Cloud ID
+En esta sección os contamos como daros de alta en IBM Cloud para la realización del reto. Existen dos métodos para darte de alta en IBM Cloud para participar en el reto, a través de una cuenta trial creada para cada participante o por medio de una cuenta Proof-of-Concept (PoC) creada específicamente para la celebración del reto y compartida por todos los participantes. **Por favor consulta con la organización del reto si desconoces cual es el método elegido para el reto en el que participas**.
 
 ![Cloud Sign up](../images/ibm-cloud-sign-up.png)
 
-## 2. Download or clone the repo
 
-Various parts of this workshop will require the attendee to upload files or run scripts that we've stored in the repository. So let's get that done early on, you'll need [`git`](https://git-scm.com) on your laptop to clone the repository directly, or access to [GitHub.com](https://github.com/) to download the zip file.
+## Acceso a tu usuario en la cuenta PoC
 
-To Download, go to the [GitHub repo for this workshop](https://github.com/IBM/workshop-template) and download the archived version of the workshop and extract it on your laptop.
+Visita este [enlace](https://cloud.ibm.com/authorize/accountID-or-alias/realmID) para establecer tu usuario en la cuenta de IBM Cloud asignada para el reto. Una vez cargado, haz clic en el enlace *Olvidé mi contraseña*. 
 
-Alternately, run the following command:
+Después de hacer clic en el botón *Restablecer contraseña*, visita la bandeja de entrada del correo electrónico proporcionado. Abre el enlace que se te ha enviado y establece una nueva contraseña personal antes de volver a vistitar la anterior URL. A continuación, recibiras un código de acceso único que deberás ingresar en el siguiente formulario. Finalmente, inicia sesión en la cuenta de IBM que se utiliza para el reto. 
 
-```bash
-git clone https://github.com/IBM/workshop-template
-cd workshop-template
-```
+## Date de alta en una cuenta trial
+
+Accede al siguiente [enlace](https://cloud.ibm.com/registration/) para darte de alta en una cuenta trial y acceder a IBM Cloud para la realización del reto.
