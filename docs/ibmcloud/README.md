@@ -95,15 +95,16 @@ El ciclo de vida de DevOps es una serie de procesos de desarrollo automatizados 
 
 IBM Cloud Continuous Delivery proporciona un conjunto básico de herramientas para cualquier cadena de DevSecOps.
 
-## Starter Kits 
+### Starter Kits 
 
 Un starter kit es un patrón de aplicación que se puede integrar con servicios para generar un activo listo para producción. Los starter kits son excelentes para ensamblar dinámicamente un aplicación de producción basica que esté lista para la implementación en la nube.
 
 ![IBM Cloud Starter Kits](../images/ibmcloud-starter-kit.png)
 
-## IBM Cloud Functions
+### IBM Cloud Functions
 
 Basada en Apache OpenWhisk, IBM Cloud Functions es una plataforma de programación de funciones como servicio (FaaS) políglota para desarrollar código ligero que se ejecuta de forma escalable bajo demanda. Con IBM Cloud Functions, puedes utilizar tu lenguaje de programación favorito. Éste se ejecuta bajo demanda con solicitudes de API basadas en HTTP desde aplicaciones o en respuesta a servicios y eventos de terceros.
+
 
 ## Recursos
 
