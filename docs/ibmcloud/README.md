@@ -44,10 +44,10 @@ IBM Cloud Object Storage es un servicio de almacenamiento en la nube altamente e
 
 Cloud Object Storage ofrece cuatro opciones de clase de almacenamiento para adaptarse a diferentes tipos de cargas de trabajo:
 
-* Smart Tier: coste automático optimizado para datos de cualquier actividad y acceso.
-* Standard: datos activos a los que se accede con frequencia.  
-* Vault: datos menos activos a los que se accede una vez al mes.
-* Cold Vault: datos 'fríos' a los que se accede varias veces al año.
+* **Smart Tier**: coste automático optimizado para datos de cualquier actividad y acceso.
+* **Standard**: datos activos a los que se accede con frequencia.  
+* **Vault**: datos menos activos a los que se accede una vez al mes.
+* **Cold Vault**: datos 'fríos' a los que se accede varias veces al año.
 
 ![IBM Cloud Storage](../images/ibmcloud-storage.png)
 
@@ -68,14 +68,50 @@ IBM Cloudant es una base de datos de documentos JSON totalmente gestionada que o
 
 El servicio de IBM Db2 en IBM Cloud es un almacén de datos relacional de alto rendimiento totalmente administrado que ejecuta el motor de base de datos Db2 de grado empresarial.
 
-<!---
-TODO: ## Servicios para el desarrollador
---->
+
+## Servicios para el desarrollador
+
+Las aplicaciones cloud-native te brindan una mayor escalabilidad, una administración más simple y reducen los costes a través de automatización y prácticas de DevOps. IBM Cloud te ayuda a desarrollar estas aplicaciones en la nube asistiendo con herramientas y servicios que soportan entornos multicloud.
+
+### DevOps
+
+DevOps describe un proceso de desarrollo de software y un cambio de cultura organizacional que acelera la entrega de software de mayor calidad al automatizar e integrar los esfuerzos de los equipos de desarrollo y operaciones de IT, dos equipos que tradicionalmente trabajaban por separado.
+
+El ciclo de vida de DevOps es una serie de procesos de desarrollo automatizados e iterativos que facilitan la entrega rápida de productos de alta calidad. El nombre y la cantidad de flujos de trabajo pueden diferir según a quién se le pregunte, pero generalmente se reducen a seis:
+
+- **Planificación**: los equipos analizan nuevas características y funcionalidades en la próxima versión.
+
+- **Desarrollo**: este es el paso de programación, donde los desarrolladores prueban, desarrollan y crean funciones nuevas y mejoradas.
+
+- **Integración (CI/CD)**: el nuevo código se integra automáticamente en la base de código existente, luego se prueba y empaqueta en un ejecutable para su integración.
+
+- **Despliegue**: el ejecutable resultante del paso de integración se implementa en un entorno productivo.
+
+- **Operaciones**: supervisar el rendimiento, el comportamiento y la disponibilidad de las funciones garantiza que éstas puedan proporcionar valor agregado al usuario final.
+
+- **Learning**: recopilación de comentarios de usuarios finales y clientes para volver a planificar mejoras y nuevas características en la próxima versión.
+
+![IBM Cloud DevOps](../images/ibmcloud-devops.png)
+
+IBM Cloud Continuous Delivery proporciona un conjunto básico de herramientas para cualquier cadena de DevSecOps.
+
+## Starter Kits 
+
+Un starter kit es un patrón de aplicación que se puede integrar con servicios para generar un activo listo para producción. Los starter kits son excelentes para ensamblar dinámicamente un aplicación de producción basica que esté lista para la implementación en la nube.
+
+![IBM Cloud Starter Kits](../images/ibmcloud-starter-kit.png)
+
+## IBM Cloud Functions
+
+Basada en Apache OpenWhisk, IBM Cloud Functions es una plataforma de programación de funciones como servicio (FaaS) políglota para desarrollar código ligero que se ejecuta de forma escalable bajo demanda. Con IBM Cloud Functions, puedes utilizar tu lenguaje de programación favorito. Éste se ejecuta bajo demanda con solicitudes de API basadas en HTTP desde aplicaciones o en respuesta a servicios y eventos de terceros.
 
 ## Recursos
 
 A continuación ponemos a tu disposición una serie de recursos para aprender más sobre los servicios de IBM Cloud:
 
-* [Presentaciones, tutoriales, recursos para aprender](https://ibm.box.com/s/nagrn4mwkj0jzsxhcti0y8x7cs2xx0i2).
+* [Introducción a IBM Cloud](https://ibm.box.com/s/nagrn4mwkj0jzsxhcti0y8x7cs2xx0i2).
+* Recursos y tutoriales de IBM Cloud.
+* [IBM Cloud Continuous Delivery](https://cloud.ibm.com/docs/ContinuousDelivery?topic=ContinuousDelivery-getting-started).
+* [Creando una app con un starter kit](https://cloud.ibm.com/docs/apps?topic=apps-tutorial-starterkit).
+* [Empezando con IBM Cloud Functions](https://cloud.ibm.com/docs/openwhisk?topic=openwhisk-getting-started).
 * Video de la sesión de enablement.
-

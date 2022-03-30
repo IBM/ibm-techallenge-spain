@@ -2,7 +2,8 @@
 
 En esta sección os contamos como daros de alta en IBM Cloud para la realización del reto. Existen dos métodos para darte de alta en IBM Cloud para participar en el reto, a través de una cuenta trial creada para cada participante o por medio de una cuenta Proof-of-Concept (PoC) creada específicamente para la celebración del reto y compartida por todos los participantes. 
 
-!!! warning Por favor consulta con la organización del reto si desconoces cual es el método elegido para el reto en el que participas.
+!!! warning 
+    Por favor consulta con la organización del reto si desconoces cual es el método elegido para el reto en el que participas.
 
 ![Cloud Sign-up](../images/ibm-cloud-sign-up.jpeg)
 
