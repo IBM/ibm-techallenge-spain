@@ -1,0 +1,1014 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="IBM Developer">
+      
+      
+        <link rel="canonical" href="https://remkohdev.github.io/workshop-setup/ibmcloud/">
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.8">
+    
+    
+      
+        <title>IBM Cloud - IBM TECHallenge</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.644de097.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.e6a45f82.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#2094f3">
+        
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,300i,400,400i,700,700i%7CIBM+Plex+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"IBM Plex Sans";--md-code-font:"IBM Plex Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#overview-de-ibm-cloud" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="IBM TECHallenge" class="md-header__button md-logo" aria-label="IBM TECHallenge" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            IBM TECHallenge
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              IBM Cloud
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/remkohdev/workshop-setup" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    workshop-setup
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        Bienvenido
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../entorno/" class="md-tabs__link md-tabs__link--active">
+        Material de consulta
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../resources/RESOURCES/" class="md-tabs__link">
+        Recursos adicionales
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="IBM TECHallenge" class="md-nav__button md-logo" aria-label="IBM TECHallenge" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    IBM TECHallenge
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/remkohdev/workshop-setup" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    workshop-setup
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1">
+          Bienvenido
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Bienvenido" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Bienvenido
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Sobre el reto
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Material de consulta
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Material de consulta" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Material de consulta
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entorno/" class="md-nav__link">
+        Entorno de trabajo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../arquitectura/" class="md-nav__link">
+        Arquitectura
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          IBM Cloud
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        IBM Cloud
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#que-es-ibm-cloud" class="md-nav__link">
+    ¿Qué es IBM Cloud?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#catalogo-ibm-cloud" class="md-nav__link">
+    Catálogo IBM Cloud
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#servicios-de-infraestructura-y-almacenamiento" class="md-nav__link">
+    Servicios de infraestructura y almacenamiento
+  </a>
+  
+    <nav class="md-nav" aria-label="Servicios de infraestructura y almacenamiento">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ibm-cloud-virtual-server-for-vpc" class="md-nav__link">
+    IBM Cloud Virtual Server for VPC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ibm-cloud-object-storage" class="md-nav__link">
+    IBM Cloud Object Storage
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#servicios-de-bases-de-datos" class="md-nav__link">
+    Servicios de bases de datos
+  </a>
+  
+    <nav class="md-nav" aria-label="Servicios de bases de datos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ibm-cloudant" class="md-nav__link">
+    IBM Cloudant
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ibm-db2" class="md-nav__link">
+    IBM Db2
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#servicios-para-el-desarrollador" class="md-nav__link">
+    Servicios para el desarrollador
+  </a>
+  
+    <nav class="md-nav" aria-label="Servicios para el desarrollador">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#devops" class="md-nav__link">
+    DevOps
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#starter-kits" class="md-nav__link">
+    Starter Kits
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ibm-cloud-functions" class="md-nav__link">
+    IBM Cloud Functions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recursos" class="md-nav__link">
+    Recursos
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contenedores/" class="md-nav__link">
+        Tecnología de contenedores
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../watsonai/" class="md-nav__link">
+        IBM Watson AI
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ejemplo/" class="md-nav__link">
+        Ejemplo de implementación
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tipsmvp/" class="md-nav__link">
+        Tips para MVPs
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Recursos adicionales
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Recursos adicionales" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Recursos adicionales
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../resources/RESOURCES/" class="md-nav__link">
+        Additional Resources
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../resources/MKDOCS/" class="md-nav__link">
+        MkDocs Cheatsheet
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#que-es-ibm-cloud" class="md-nav__link">
+    ¿Qué es IBM Cloud?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#catalogo-ibm-cloud" class="md-nav__link">
+    Catálogo IBM Cloud
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#servicios-de-infraestructura-y-almacenamiento" class="md-nav__link">
+    Servicios de infraestructura y almacenamiento
+  </a>
+  
+    <nav class="md-nav" aria-label="Servicios de infraestructura y almacenamiento">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ibm-cloud-virtual-server-for-vpc" class="md-nav__link">
+    IBM Cloud Virtual Server for VPC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ibm-cloud-object-storage" class="md-nav__link">
+    IBM Cloud Object Storage
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#servicios-de-bases-de-datos" class="md-nav__link">
+    Servicios de bases de datos
+  </a>
+  
+    <nav class="md-nav" aria-label="Servicios de bases de datos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ibm-cloudant" class="md-nav__link">
+    IBM Cloudant
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ibm-db2" class="md-nav__link">
+    IBM Db2
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#servicios-para-el-desarrollador" class="md-nav__link">
+    Servicios para el desarrollador
+  </a>
+  
+    <nav class="md-nav" aria-label="Servicios para el desarrollador">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#devops" class="md-nav__link">
+    DevOps
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#starter-kits" class="md-nav__link">
+    Starter Kits
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ibm-cloud-functions" class="md-nav__link">
+    IBM Cloud Functions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recursos" class="md-nav__link">
+    Recursos
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+<a href="https://github.com/remkohdev/workshop-setup/edit/master/docs/ibmcloud/README.md" title="Edit this page" class="md-content__button md-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+</a>
+
+
+
+<h1 id="overview-de-ibm-cloud">Overview de IBM Cloud<a class="headerlink" href="#overview-de-ibm-cloud" title="Permanent link">&para;</a></h1>
+<p>En esta sección podéis acceder a material de consulta sobre IBM Cloud, su catálogo, y un overview de los servicios más interesantes del cara al reto. </p>
+<p><img alt="IBM Cloud" src="../images/ibmcloud-start.png" /></p>
+<h2 id="que-es-ibm-cloud">¿Qué es IBM Cloud?<a class="headerlink" href="#que-es-ibm-cloud" title="Permanent link">&para;</a></h2>
+<p>La plataforma IBM Cloud combina plataforma como servicio (PaaS) con infraestructura como servicio (IaaS) para proporcionar una experiencia integrada. La plataforma escala y es compatible tanto con pequeños equipos y organizaciones de desarrollo como con grandes empresas. </p>
+<p>Como ilustra el siguiente diagrama, la plataforma IBM Cloud se compone de varios componentes que funcionan juntos para proporcionar una experiencia en la nube coherente y fiable:</p>
+<ul>
+<li>Una consola robusta que sirve como interfaz para crear, ver y administrar tus recursos en la nube.</li>
+<li>Un componente de gestión de identidades y accesos (IAM) que autentica de forma segura a los usuarios para los servicios de la plataforma y controla el acceso a los recursos.</li>
+<li>Un catálogo que consta de cientos de productos compatibles.</li>
+<li>Un mecanismo de búsqueda y etiquetado para filtrar e identificar tus recursos.</li>
+<li>Un gestión de cuentas y facturación que proporciona un uso exacto para planes de precios y protección segura contra fraudes de targetas de crédito.</li>
+</ul>
+<p><img alt="IBM Cloud Stack" src="../images/ibmcloud-stack.png" /></p>
+<h2 id="catalogo-ibm-cloud">Catálogo IBM Cloud<a class="headerlink" href="#catalogo-ibm-cloud" title="Permanent link">&para;</a></h2>
+<p>Todos los productos que están disponibles en IBM Cloud se muestran de forma predeterminada en el catálogo. Puedes filtrar el catálogo por tipo para ver un tipo específico de producto. Ingresa palabras clave o estable filtros adicionales para ampliar el alcance de tu vista del catálogo.</p>
+<p>Por ejemplo, si deseas implementar una instancia de análisis en Red Hat OpenShift en IBM Cloud, puedes seleccionar la categoría Análisis y filtrar los resultados seleccionando Red Hat OpenShift como destino de implementación.</p>
+<p><img alt="IBM Cloud Catalog" src="../images/ibmcloud-catalog.png" /></p>
+<h2 id="servicios-de-infraestructura-y-almacenamiento">Servicios de infraestructura y almacenamiento<a class="headerlink" href="#servicios-de-infraestructura-y-almacenamiento" title="Permanent link">&para;</a></h2>
+<p>La infraestructura como servicio (IaaS) es un tipo de computación en la nube qu permite asignar tus recursos de cómputo, de red, de almacenamiento y de seguridad a demanda. IBM Cloud ofrece diversos servicios de infraestructura como servicio e infraestructura en la nube.</p>
+<h3 id="ibm-cloud-virtual-server-for-vpc">IBM Cloud Virtual Server for VPC<a class="headerlink" href="#ibm-cloud-virtual-server-for-vpc" title="Permanent link">&para;</a></h3>
+<p>En tu propio espacio privado en IBM Cloud, IBM Cloud VPC combina la seguridad de una nube privada con la escalabilidad de una nube pública. Virtual Private Cloud te permite aislar y aprovisionar segmentos de red en IBM Cloud donde implementar y administrar recursos.</p>
+<p>Con Virtual Server for VPC puedes aprovisionar rápidamente instancios con alto rendimiento de red. Cuando aprovisiones una instancia, puedes seleccionar un perfil que coincida con la cantidad de memoria y potencia de cómputo que necesites para la aplicación que planees ejecutar en la instancia.</p>
+<h3 id="ibm-cloud-object-storage">IBM Cloud Object Storage<a class="headerlink" href="#ibm-cloud-object-storage" title="Permanent link">&para;</a></h3>
+<p>IBM Cloud Object Storage es un servicio de almacenamiento en la nube altamente escalable, diseñado para alta resilencia y seguridad. Puedes administrar y acceder a tus datos a través de APIs RESTful. Además, puedes conectar aplicaciones diractamente a Cloud Object Storage para utilizar otros servicios de IBM Cloud con tus datos.</p>
+<p>Cloud Object Storage ofrece cuatro opciones de clase de almacenamiento para adaptarse a diferentes tipos de cargas de trabajo:</p>
+<ul>
+<li><strong>Smart Tier</strong>: coste automático optimizado para datos de cualquier actividad y acceso.</li>
+<li><strong>Standard</strong>: datos activos a los que se accede con frequencia.  </li>
+<li><strong>Vault</strong>: datos menos activos a los que se accede una vez al mes.</li>
+<li><strong>Cold Vault</strong>: datos 'fríos' a los que se accede varias veces al año.</li>
+</ul>
+<p><img alt="IBM Cloud Storage" src="../images/ibmcloud-storage.png" /></p>
+<h2 id="servicios-de-bases-de-datos">Servicios de bases de datos<a class="headerlink" href="#servicios-de-bases-de-datos" title="Permanent link">&para;</a></h2>
+<p>DBaaS (también conodico como servicio de base de datos administrado) es un servicio de computación en la nube que te permite acceder y usar un sistema de base de datos en la nube sin comprar y configurar tu propio hardware, instalar tu propio software de base de datos o administrar la base de datos por ti mismo.</p>
+<p>IBM Cloud ofrece una amplia gama de bases de datos que están altamente disponibles y listas para producción.</p>
+<h3 id="ibm-cloudant">IBM Cloudant<a class="headerlink" href="#ibm-cloudant" title="Permanent link">&para;</a></h3>
+<p>IBM Cloud te ofrece la opción de crear una instancia de Cloudant totalmente gestionada en IBM Cloud.</p>
+<p>IBM Cloudant es una base de datos de documentos JSON totalmente gestionada que ofrece un escalado independiente sin servidor de la capacidad de rendimiento y el almacenamiento aprovisionados. Cloudant es compatible con Apache CouchDB y se puede acceder a través de una API HTTPS fácil de usar para aplicaciones web, móviles y de IoT.</p>
+<h3 id="ibm-db2">IBM Db2<a class="headerlink" href="#ibm-db2" title="Permanent link">&para;</a></h3>
+<p>El servicio de IBM Db2 en IBM Cloud es un almacén de datos relacional de alto rendimiento totalmente administrado que ejecuta el motor de base de datos Db2 de grado empresarial.</p>
+<h2 id="servicios-para-el-desarrollador">Servicios para el desarrollador<a class="headerlink" href="#servicios-para-el-desarrollador" title="Permanent link">&para;</a></h2>
+<p>Las aplicaciones cloud-native te brindan una mayor escalabilidad, una administración más simple y reducen los costes a través de automatización y prácticas de DevOps. IBM Cloud te ayuda a desarrollar estas aplicaciones en la nube asistiendo con herramientas y servicios que soportan entornos multicloud.</p>
+<h3 id="devops">DevOps<a class="headerlink" href="#devops" title="Permanent link">&para;</a></h3>
+<p>DevOps describe un proceso de desarrollo de software y un cambio de cultura organizacional que acelera la entrega de software de mayor calidad al automatizar e integrar los esfuerzos de los equipos de desarrollo y operaciones de IT, dos equipos que tradicionalmente trabajaban por separado.</p>
+<p>El ciclo de vida de DevOps es una serie de procesos de desarrollo automatizados e iterativos que facilitan la entrega rápida de productos de alta calidad. El nombre y la cantidad de flujos de trabajo pueden diferir según a quién se le pregunte, pero generalmente se reducen a seis:</p>
+<ul>
+<li>
+<p><strong>Planificación</strong>: los equipos analizan nuevas características y funcionalidades en la próxima versión.</p>
+</li>
+<li>
+<p><strong>Desarrollo</strong>: este es el paso de programación, donde los desarrolladores prueban, desarrollan y crean funciones nuevas y mejoradas.</p>
+</li>
+<li>
+<p><strong>Integración (CI/CD)</strong>: el nuevo código se integra automáticamente en la base de código existente, luego se prueba y empaqueta en un ejecutable para su integración.</p>
+</li>
+<li>
+<p><strong>Despliegue</strong>: el ejecutable resultante del paso de integración se implementa en un entorno productivo.</p>
+</li>
+<li>
+<p><strong>Operaciones</strong>: supervisar el rendimiento, el comportamiento y la disponibilidad de las funciones garantiza que éstas puedan proporcionar valor agregado al usuario final.</p>
+</li>
+<li>
+<p><strong>Learning</strong>: recopilación de comentarios de usuarios finales y clientes para volver a planificar mejoras y nuevas características en la próxima versión.</p>
+</li>
+</ul>
+<p><img alt="IBM Cloud DevOps" src="../images/ibmcloud-devops.png" /></p>
+<p>IBM Cloud Continuous Delivery proporciona un conjunto básico de herramientas para cualquier cadena de DevSecOps.</p>
+<h3 id="starter-kits">Starter Kits<a class="headerlink" href="#starter-kits" title="Permanent link">&para;</a></h3>
+<p>Un starter kit es un patrón de aplicación que se puede integrar con servicios para generar un activo listo para producción. Los starter kits son excelentes para ensamblar dinámicamente un aplicación de producción basica que esté lista para la implementación en la nube.</p>
+<p><img alt="IBM Cloud Starter Kits" src="../images/ibmcloud-starter-kit.png" /></p>
+<h3 id="ibm-cloud-functions">IBM Cloud Functions<a class="headerlink" href="#ibm-cloud-functions" title="Permanent link">&para;</a></h3>
+<p>Basada en Apache OpenWhisk, IBM Cloud Functions es una plataforma de programación de funciones como servicio (FaaS) políglota para desarrollar código ligero que se ejecuta de forma escalable bajo demanda. Con IBM Cloud Functions, puedes utilizar tu lenguaje de programación favorito. Éste se ejecuta bajo demanda con solicitudes de API basadas en HTTP desde aplicaciones o en respuesta a servicios y eventos de terceros.</p>
+<h2 id="recursos">Recursos<a class="headerlink" href="#recursos" title="Permanent link">&para;</a></h2>
+<p>A continuación ponemos a tu disposición una serie de recursos para aprender más sobre los servicios de IBM Cloud:</p>
+<ul>
+<li><a href="https://ibm.box.com/s/nagrn4mwkj0jzsxhcti0y8x7cs2xx0i2">Introducción a IBM Cloud</a>.</li>
+<li>Recursos y tutoriales de IBM Cloud.</li>
+<li><a href="https://cloud.ibm.com/docs/ContinuousDelivery?topic=ContinuousDelivery-getting-started">IBM Cloud Continuous Delivery</a>.</li>
+<li><a href="https://cloud.ibm.com/docs/apps?topic=apps-tutorial-starterkit">Creando una app con un starter kit</a>.</li>
+<li><a href="https://cloud.ibm.com/docs/openwhisk?topic=openwhisk-getting-started">Empezando con IBM Cloud Functions</a>.</li>
+<li>Video de la sesión de enablement.</li>
+</ul>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../arquitectura/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Arquitectura" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Arquitectura
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../contenedores/" class="md-footer__link md-footer__link--next" aria-label="Next: Tecnología de contenedores" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Tecnología de contenedores
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2020 IBM Developer
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+      
+      
+    
+    <a href="https://github.com/ibm" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/ibmdeveloper" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/company/ibm/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://www.youtube.com/user/developerworks" target="_blank" rel="noopener" title="www.youtube.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://dev.to/ibmdeveloper" target="_blank" rel="noopener" title="dev.to" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M120.12 208.29c-3.88-2.9-7.77-4.35-11.65-4.35H91.03v104.47h17.45c3.88 0 7.77-1.45 11.65-4.35 3.88-2.9 5.82-7.25 5.82-13.06v-69.65c-.01-5.8-1.96-10.16-5.83-13.06zM404.1 32H43.9C19.7 32 .06 51.59 0 75.8v360.4C.06 460.41 19.7 480 43.9 480h360.2c24.21 0 43.84-19.59 43.9-43.8V75.8c-.06-24.21-19.7-43.8-43.9-43.8zM154.2 291.19c0 18.81-11.61 47.31-48.36 47.25h-46.4V172.98h47.38c35.44 0 47.36 28.46 47.37 47.28l.01 70.93zm100.68-88.66H201.6v38.42h32.57v29.57H201.6v38.41h53.29v29.57h-62.18c-11.16.29-20.44-8.53-20.72-19.69V193.7c-.27-11.15 8.56-20.41 19.71-20.69h63.19l-.01 29.52zm103.64 115.29c-13.2 30.75-36.85 24.63-47.44 0l-38.53-144.8h32.57l29.71 113.72 29.57-113.72h32.58l-38.46 144.8z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs"], "search": "../assets/javascripts/workers/search.5e67fbfe.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.c44cc438.min.js"></script>
+      
+    
+  </body>
+</html>
