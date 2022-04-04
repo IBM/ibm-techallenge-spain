@@ -16,5 +16,5 @@ En caso de que el asistente necesite acceder a información adicional para ofrec
 Para la capa de front end, también contamos con varias alternativas, que van desde una integración sencilla del asistente en una página web, o integración con diferentes sistemas de mensajería que por defecto soporta Watson Asssitant, como Facebook Messenger, Slack o WhatsApp. 
 
 !!! info 
-    Otra opción es desarrollar vuestro porpio cliente e integrar ahí la funcionalidad de Watson Assistant [../watsonai#qué-son-watson-apis](invocando a su API). 
+    Otra opción es desarrollar vuestro porpio cliente e integrar ahí la funcionalidad de Watson Assistant [invocando su API](../watsonai#qué-son-watson-apis). 
     Un ejemplo de esto es también la [integración específica con Discord](../ejemplo), que se ha desarrolldo ad-hoc para que podáis consultar cómo acceder al API de Watson Assistant.
